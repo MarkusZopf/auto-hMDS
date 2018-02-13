@@ -1,10 +1,7 @@
 # The auto-<i>h</i>MDS Corpus
-
-a large heterogeneous multilingual multi-document summarization corpus
-
 The auto-<i>h</i>MDS corpus is a (a) large, (b) heterogeneous, (c) multilingual, (d) multi-document corpus built with a novel corpus construction approach.
 
-##Reference
+## Reference
 If you plan to refer to auto-<i>h</i>MDS Corpus in your publications, please cite [the corresponding LREC 2018 paper](TODO: add link):
 
 ```
@@ -21,7 +18,7 @@ If you plan to refer to auto-<i>h</i>MDS Corpus in your publications, please cit
 }
 ```
 
-##Obtaining the Corpus
+## Obtaining the Corpus
 To obtain the corpus, please contact one of the following persons:
 
 * [Markus Zopf](https://www.aiphes.tu-darmstadt.de/de/aiphes/people/doctoral-researchers/markus-zopf)
