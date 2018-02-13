@@ -5,7 +5,7 @@ The auto-<i>h</i>MDS corpus is a (a) large, (b) heterogeneous, (c) multilingual,
 If you plan to refer to auto-<i>h</i>MDS Corpus in your publications, please cite [the corresponding LREC 2018 paper](TODO: add link):
 
 ```
-@InProceedings{Zopf2016hMDS,
+@InProceedings{Zopf2018autohMDS,
   author    = {Zopf, Markus},
   title     = {auto-hMDS: Automatic Construction of a Large Heterogeneous Multilingual Multi-Document Summarization Corpus},
   booktitle = {Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC 2018)},
