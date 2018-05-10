@@ -58,7 +58,7 @@ Every topic has 2 sub-folders "input" and "reference".
 
 The reference folder contains the original summary in the file "reference.txt" and a sentence-segmented version in the file "reference-segmented.txt". Every line in a "reference-segmented.txt" file contains one sentence. For every line (i.e. sentence) in "reference-segmented.txt" source web pages have been retrieved. The URLs of the web pages can be found in the "sentence_x_urls.txt" files where x indicates the sentence index. The first sentence index in "reference-segmented.txt" has index 0. The first line in "sentence_x_urls.txt" contains the sentence text and the following lines contain one URL per line. 
 
-Summaries, sentence-segmented summaries, and the URL lists for individual sentences can be found in the file TODO.
+Summaries, sentence-segmented summaries, and the URL lists for individual sentences can be found in the file auto-hMDS reference.zip.
 
 The input folder contains the input documents which have to be summarized. The input files have the pattern "sentence_x_y.*" where x indicates the sentences id and y indicates the link id. Note that neither the sentences ids nor the link ids have to be consecutively numbered. Links were skipped if a web pages was not retrievable. Sentences where skipped if all links of a sentence were not retrievable.
 
