@@ -10,7 +10,7 @@ The auto-<i>h</i>MDS corpus is a (a) large, (b) heterogeneous, (c) multilingual,
 | total    | 7,316  |  14,3 GB          | 64,744           |
 
 ## Reference
-If you plan to refer to auto-<i>h</i>MDS Corpus in your publications, please cite [the corresponding LREC 2018 paper](TODO: add link):
+If you plan to refer to auto-<i>h</i>MDS Corpus in your publications, please cite [the corresponding LREC 2018 paper](http://www.lrec-conf.org/proceedings/lrec2018/pdf/1018.pdf):
 
 ```
 @InProceedings{Zopf2018autohMDS,
