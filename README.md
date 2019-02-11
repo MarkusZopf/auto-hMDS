@@ -21,7 +21,7 @@ If you plan to refer to auto-<i>h</i>MDS Corpus in your publications, please cit
   year      = {2018},
   address   = {Miyazaki, Japan},
   publisher = {Association for Computational Linguistics},
-  pages     = {to appear},
+  pages     = {3228--3233},
   website = {https://github.com/AIPHES/auto-hMDS}
 }
 ```
@@ -84,4 +84,4 @@ We provide 2 versions of every input document. *.html files contain the HTML cod
 ## Obtaining the Corpus
 To obtain the corpus, please contact one of the following persons:
 
-* [Markus Zopf](https://www.aiphes.tu-darmstadt.de/de/aiphes/people/doctoral-researchers/markus-zopf)
+* [Markus Zopf](https://www.informatik.tu-darmstadt.de/aiphes/aiphes/people_7/mitarbeiter_4_detailseite_53632.en.jsp)
