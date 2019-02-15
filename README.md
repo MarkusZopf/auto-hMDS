@@ -82,6 +82,4 @@ We provide 2 versions of every input document. *.html files contain the HTML cod
 ```
 
 ## Obtaining the Corpus
-To obtain the corpus, please contact one of the following persons:
-
-* [Markus Zopf](https://www.informatik.tu-darmstadt.de/aiphes/aiphes/people_7/mitarbeiter_4_detailseite_53632.en.jsp)
+Please let us know in case you are interested in obtaining the full corpus. Contact details can be found on the [AIPHES webpage](https://www.informatik.tu-darmstadt.de/aiphes/aiphes/index.en.jsp).
