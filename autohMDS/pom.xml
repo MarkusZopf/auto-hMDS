@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.tu_darmstadt.aiphes</groupId>
+  <artifactId>auto-hmds</artifactId>
+  <version>1.0.0</version>
+  <name>auto-hMDS</name>
+  <description>Source code to download and preprocess input files for the auto-hMDS corpus</description>
+  <dependencies>
+	<dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-chrome-driver</artifactId>
+    	<version>3.5.3</version>
+	</dependency>
+	<dependency>
+		<groupId>com.syncthemall</groupId>
+		<artifactId>boilerpipe</artifactId>
+		<version>1.2.2</version>
+	</dependency>
+  </dependencies>
+</project>
