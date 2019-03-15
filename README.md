@@ -60,13 +60,14 @@ The reference folder contains the original summary in the file "reference.txt" a
 
 Summaries, sentence-segmented summaries, and the URL lists for individual sentences can be found in the file auto-hMDS reference.zip.
 
-The input folder contains the input documents which have to be summarized. The input files have the pattern "sentence_x_y.*" where x indicates the sentences id and y indicates the link id. Note that neither the sentences ids nor the link ids have to be consecutively numbered. Links were skipped if a web pages was not retrievable. Sentences where skipped if all links of a sentence were not retrievable.
+The input folder contains the input documents which have to be summarized (see next section for more information). The input files have the pattern "sentence_x_y.*" where x indicates the sentences id and y indicates the link id. Note that neither the sentences ids nor the link ids have to be consecutively numbered. Links were skipped if a web pages was not retrievable. Sentences where skipped if all links of a sentence were not retrievable.
 
 We provide 2 versions of every input document. *.html files contain the HTML code of the retrieved web page. *.html.ke.txt files contain all visible content of the web pages. The visible content has been extracted with the Boilerpipe Keep Everything boilerplate removal tool and does not contain HTML tags anymore. The structure of the topic folders is illustrated below.
 
 ```
 - 96_165707958_Argon
 	-input
+		- collected_sentence_ids.txt
 		- sentence_1_1.html
 		- sentence_1_1.html.ke.txt
 		- sentence_2_1.html
@@ -81,5 +82,5 @@ We provide 2 versions of every input document. *.html files contain the HTML cod
 		- ...
 ```
 
-## Obtaining the Corpus
-Please let us know in case you are interested in obtaining the full corpus. Contact details can be found on the [AIPHES webpage](https://www.informatik.tu-darmstadt.de/aiphes/aiphes/index.en.jsp).
+## Obtaining the Full Corpus
+We are not allowed to share the corpus via Github due to copyright reasons. Hence, the file "auto-hMDS reference.zip" only contains the references (i.e., summaries) for the topics and not the downloaded web pages. To mitigate this issue, we include in every input folder a file named "collected_sentence_ids.txt" which contains a list of links of the web pages which have been included in the corpus. The web pages can be downloaded with the provided script in the file "InputDownloadScript.java". To download the web pages, the cromedriver.exe from Selenium (https://www.seleniumhq.org/) is required. The cromedriver.exe can be downloaded here: http://chromedriver.chromium.org/downloads and has to be stored in the /res folder of the Java project. Unfortunately, we found that some web pages are no longer available which means that the quality of the corpus created with the Java script might suffer.
